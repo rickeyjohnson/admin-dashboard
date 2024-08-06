@@ -32,16 +32,18 @@ body {
 
 .nav {
   display: grid;
-  grid-template-columns: 1fr repeat(4, auto);
+  grid-template-columns: 1fr repeat(3, auto);
   justify-content: center;
   align-items: center;
   gap: 30px;
+  padding: 10px 30px;
 }
 .nav .search {
   display: flex;
+  gap: 10px;
 }
 .nav img {
-  width: 2rem;
+  width: 1.5rem;
 }
 .nav input {
   width: 35rem;
