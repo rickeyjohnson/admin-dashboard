@@ -27,8 +27,14 @@ body {
 
 .nav {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: 1fr repeat(4, auto);
+    justify-content: center;
     align-items: center;
+    gap: 30px;
+
+    .search {
+        display: flex;
+    }
 
     img {
         width: 2rem;
