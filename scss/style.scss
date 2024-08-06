@@ -28,6 +28,23 @@ body {
 .sidebar {
     grid-row: 1 / 3;
     background-color: #38bdf8;
+
+    .dashboard {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 1.75rem;
+        gap: 10px;
+
+        img {
+            width: 5rem;
+        }
+    }
+
+    .section {
+        display: flex;
+        gap: 15px;
+    }
 }
 
 .main {
