@@ -25,6 +25,18 @@ body {
   background-color: lightblue;
 }
 
+.nav {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+}
 .nav img {
   width: 2rem;
+}
+.nav input {
+  width: 35rem;
+  height: 1.5rem;
+  background-color: lightgray;
+  border: none;
+  border-radius: 5rem;
 }/*# sourceMappingURL=style.css.map */

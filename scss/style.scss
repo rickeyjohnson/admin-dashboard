@@ -26,7 +26,19 @@ body {
 }
 
 .nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+
     img {
         width: 2rem;
+    }
+
+    input {
+        width: 35rem;
+        height: 1.5rem;
+        background-color: lightgray;
+        border: none;
+        border-radius: 5rem;
     }
 }
