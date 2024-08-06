@@ -37,8 +37,12 @@ body {
   width: 5rem;
 }
 .sidebar .section {
+  font-size: 1rem;
   display: flex;
   gap: 15px;
+}
+.sidebar .section img {
+  width: 2rem;
 }
 
 .main {
