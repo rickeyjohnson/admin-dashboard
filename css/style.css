@@ -1,11 +1,12 @@
 @font-face {
   font-family: "Roboto";
-  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+  src: url("../fonts/Roboto");
 }
 html,
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -18,7 +19,7 @@ body {
 
 .header {
   grid-column: 2/span;
-  background-color: red;
+  padding: 1rem 4rem;
 }
 
 .sidebar {
@@ -57,9 +58,11 @@ body {
   grid-template-columns: auto 1fr auto auto auto;
   gap: 30px;
   align-items: center;
+  margin: 20px 0px;
+  font-weight: bold;
 }
 .profile img {
-  width: 5rem;
+  width: 4rem;
 }
 .profile button {
   padding: 10px 30px;
